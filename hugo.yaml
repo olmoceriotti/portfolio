@@ -1,0 +1,47 @@
+baseURL: "https://example.org/"
+languageCode: 'en-us'
+title: 'Olmo Ceriotti'
+theme: 'PaperMod'
+
+menu:
+  main:
+    - identifier: "projects"
+      name: "Projects"
+      url: "/projects"
+      weight: 1
+    - identifier: "cv"
+      name: "CV"
+      url: "/cv"
+      weight: 2
+    - identifier: "blog"
+      name: "Blog"
+      url: "/blog"
+      weight: 3
+
+params:
+  ShowPostNavLinks: true
+  profileMode:
+    enabled: true
+    title: "Hi, I'm Olmo"
+    subtitle: "I'm a Computer Science student passionate about AI."
+    imageUrl: "IMG/pfp.jpg" # optional
+    imageTitle: "A photo of myself smiling during graduation" # optional
+    imageWidth: 120 # custom size
+    imageHeight: 120 # custom size
+    buttons:
+      - name: Projects
+        url: "/projects"
+      - name: CV
+        url: "/cv"
+      - name: Blog
+        url: "/blog"
+
+  socialIcons: # optional
+    - name: "Github"
+      url: "https://github.com/olmoceriotti"
+    - name: "LinkedIn"
+      url: "<link2>"
+    - name: "Twitter"
+      url: "<link2>"
+    - name: "HackerRank"
+      url: "https://www.hackerrank.com/profile/olmoceriotti"

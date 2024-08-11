@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Olmo Ceriotti</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Olmo Ceriotti</description>
+    <generator>Hugo -- 0.131.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 11 Aug 2024 15:13:16 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Heterogeneous Graph Neural Networks for Action Prediction on Egocentric Action Scene Graphs</title>
+      <link>http://localhost:1313/projects/hetgnn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/hetgnn/</guid>
+      <description>In this project I worked on implementing heterogenous graph neural networks in PyTorch Geometric to work on EASG, a novel annotation frameworks for egocentric videos. The task tested was the one of action prediction. More on this work here.</description>
+    </item>
+    <item>
+      <title>PySteg</title>
+      <link>http://localhost:1313/projects/pysteg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/pysteg/</guid>
+      <description>PySteg is a steganography suite written in Python. It performs steganography on different image formats with a wide variety of algorithms and QR Codes. More on the implementation and the usage here.</description>
+    </item>
+    <item>
+      <title>JSONParser</title>
+      <link>http://localhost:1313/projects/json/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/json/</guid>
+      <description>JSONParser is a collection of methods and function to parse JSON files into structures understandable by Prolog and LISP programs. Two different parsers are present, one written in prolog and on written in LISP. More on this project here.</description>
+    </item>
+    <item>
+      <title>Welcome to my blog</title>
+      <link>http://localhost:1313/blog/welcome/</link>
+      <pubDate>Sun, 11 Aug 2024 15:13:16 +0200</pubDate>
+      <guid>http://localhost:1313/blog/welcome/</guid>
+      <description>In the past years I found myself interested in a vast ocean of different topics. Even if becoming an expert in all of them is a distant hope, I always thought that documenting this interestes could lead to curious and potentially interesting connections.
+I tried many different methods: notebooks, Notion and ultimately Obsidian but I think that sharing such dives into unknown (for me) concepts could transform the way I approach them.</description>
+    </item>
+    <item>
+      <title>Curriculum Vitae</title>
+      <link>http://localhost:1313/cv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/cv/</guid>
+      <description>Download
+Education University of Milano Bicocca - Bachelor in Computer Science From September 2021 to July 2024
+Graduated with honors Relevant coursework: Programming Languages (Prolog &amp;amp; Lisp), Distributed Systems (Java &amp;amp; Javascript), Object Oriented Programming (Java &amp;amp; C++) AGH University - Erasmus semester From September 2023 to February 2024
+Relevant coursework: Embedded Artificial Intelligence (Python), Functional Programming Languages (Scala), Cryptography (Python) Technical Skills Languages: Python, Java, Javascript, C++, Scala, Lisp, Prolog, HTML, CSS, SQL, Bash, Latex Technologies: PyTorch, PyTorch Geometric, TensorFlow, Flask, Express.</description>
+    </item>
+    <item>
+      <title>Links</title>
+      <link>http://localhost:1313/links/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/links/</guid>
+      <description>Github LinkedIn Twitter HackerRank LeetCode </description>
+    </item>
+  </channel>
+</rss>
