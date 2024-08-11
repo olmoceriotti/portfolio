@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Blog on Olmo Ceriotti</title>
-    <link>http://localhost:1313/blog/</link>
+    <link>https://olmoceriotti.com/blog/</link>
     <description>Recent content in Blog on Olmo Ceriotti</description>
     <generator>Hugo -- 0.131.0</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 11 Aug 2024 15:13:16 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://olmoceriotti.com/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Welcome to my blog</title>
-      <link>http://localhost:1313/blog/welcome/</link>
+      <link>https://olmoceriotti.com/blog/welcome/</link>
       <pubDate>Sun, 11 Aug 2024 15:13:16 +0200</pubDate>
-      <guid>http://localhost:1313/blog/welcome/</guid>
+      <guid>https://olmoceriotti.com/blog/welcome/</guid>
       <description>In the past years I found myself interested in a vast ocean of different topics. Even if becoming an expert in all of them is a distant hope, I always thought that documenting this interestes could lead to curious and potentially interesting connections.
 I tried many different methods: notebooks, Notion and ultimately Obsidian but I think that sharing such dives into unknown (for me) concepts could transform the way I approach them.</description>
     </item>
