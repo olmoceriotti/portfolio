@@ -24,7 +24,7 @@ params:
     enabled: true
     title: "Hi, I'm Olmo"
     subtitle: "I'm a Computer Science student passionate about AI."
-    imageUrl: "IMG/pfp.jpg" # optional
+    imageUrl: "IMG/pfp.JPG" # optional
     imageTitle: "A photo of myself smiling during graduation" # optional
     imageWidth: 120 # custom size
     imageHeight: 120 # custom size
