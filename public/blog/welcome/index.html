@@ -6,17 +6,17 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title>Welcome to my blog | Olmo Ceriotti</title>
-<meta name="keywords" content="">
+<meta name="keywords" content="updates">
 <meta name="description" content="In the past years I found myself interested in a vast ocean of different topics. Even if becoming an expert in all of them is a distant hope, I always thought that documenting this interestes could lead to curious and potentially interesting connections.
 I tried many different methods: notebooks, Notion and ultimately Obsidian but I think that sharing such dives into unknown (for me) concepts could transform the way I approach them.">
-<meta name="author" content="">
+<meta name="author" content="Olmo Ceriotti">
 <link rel="canonical" href="https://olmoceriotti.com/blog/welcome/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.fc220c15db4aef0318bbf30adc45d33d4d7c88deff3238b23eb255afdc472ca6.css" integrity="sha256-/CIMFdtK7wMYu/MK3EXTPU18iN7/MjiyPrJVr9xHLKY=" rel="preload stylesheet" as="style">
-<link rel="icon" href="https://olmoceriotti.com/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://olmoceriotti.com/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://olmoceriotti.com/favicon-32x32.png">
-<link rel="apple-touch-icon" href="https://olmoceriotti.com/apple-touch-icon.png">
-<link rel="mask-icon" href="https://olmoceriotti.com/safari-pinned-tab.svg">
+<link rel="icon" href="https://olmoceriotti.com/favicon/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://olmoceriotti.com/favicon/favicon16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://olmoceriotti.com/favicon/favicon32x32.png">
+<link rel="apple-touch-icon" href="https://olmoceriotti.com/favicon/favicon.png">
+<link rel="mask-icon" href="https://olmoceriotti.com/favicon/favicon.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
 <link rel="alternate" hreflang="en" href="https://olmoceriotti.com/blog/welcome/">
@@ -56,7 +56,23 @@ I tried many different methods: notebooks, Notion and ultimately Obsidian but I 
         }
 
     </style>
-</noscript>
+</noscript><script>
+    
+    const faviconLight = "https:\/\/olmoceriotti.com\/favicon\/favicon.ico";
+    const faviconDark = "https:\/\/olmoceriotti.com\/favicon\/faviconDark.ico";
+    console.log(faviconLight)
+    console.log(faviconDark)
+    console.log(window.matchMedia('(prefers-color-scheme: dark)'))
+    function updateFavicon() {
+        const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        document.head.querySelector('link[rel="icon"]').href = isDarkMode ? faviconDark : faviconLight;
+        
+    }
+
+    updateFavicon();
+
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', updateFavicon);
+</script>
   
 
 <meta property="og:title" content="Welcome to my blog" />
@@ -101,13 +117,17 @@ I tried many different methods: notebooks, Notion and ultimately Obsidian but I 
   "name": "Welcome to my blog",
   "description": "In the past years I found myself interested in a vast ocean of different topics. Even if becoming an expert in all of them is a distant hope, I always thought that documenting this interestes could lead to curious and potentially interesting connections.\nI tried many different methods: notebooks, Notion and ultimately Obsidian but I think that sharing such dives into unknown (for me) concepts could transform the way I approach them.",
   "keywords": [
-    
+    "updates"
   ],
   "articleBody": "In the past years I found myself interested in a vast ocean of different topics. Even if becoming an expert in all of them is a distant hope, I always thought that documenting this interestes could lead to curious and potentially interesting connections.\nI tried many different methods: notebooks, Notion and ultimately Obsidian but I think that sharing such dives into unknown (for me) concepts could transform the way I approach them.\nI then created this website using Hugo and the Papermod theme and hosted it with Vercel. I chose the most straightforward way of creating a website since web development is distant from my area of “expertise”. The main objective of this website is not to experiment and dive into web framework and technologies but rather showcase and discuss other topics I came in contact with.\nI will not post articles regularly but only when a topic feels worthy of deeper analisys. I hope to spark at least the interest of one person with my texts and I hope to learn a lot more from them. I’m always open to exchange information and insights, contact me through my socials or through the contact informations inside the main page.\nThank you for your attention!\n",
   "wordCount" : "204",
   "inLanguage": "en",
   "datePublished": "2024-08-11T15:13:16+02:00",
   "dateModified": "2024-08-11T15:13:16+02:00",
+  "author":[{
+    "@type": "Person",
+    "name": "Olmo Ceriotti"
+  }],
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://olmoceriotti.com/blog/welcome/"
@@ -117,7 +137,7 @@ I tried many different methods: notebooks, Notion and ultimately Obsidian but I 
     "name": "Olmo Ceriotti",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://olmoceriotti.com/favicon.ico"
+      "url": "https://olmoceriotti.com/favicon/favicon.ico"
     }
   }
 }
@@ -186,11 +206,11 @@ I tried many different methods: notebooks, Notion and ultimately Obsidian but I 
 
 <article class="post-single">
   <header class="post-header">
-    
+    <div class="breadcrumbs"><a href="https://olmoceriotti.com/">Home</a>&nbsp;»&nbsp;<a href="https://olmoceriotti.com/blog/">Blog</a></div>
     <h1 class="post-title entry-hint-parent">
       Welcome to my blog
     </h1>
-    <div class="post-meta"><span title='2024-08-11 15:13:16 +0200 CEST'>August 11, 2024</span>
+    <div class="post-meta"><span title='2024-08-11 15:13:16 +0200 CEST'>August 11, 2024</span>&nbsp;·&nbsp;Olmo Ceriotti
 
 </div>
   </header> 
@@ -205,6 +225,7 @@ Thank you for your attention!</p>
 
   <footer class="post-footer">
     <ul class="post-tags">
+      <li><a href="https://olmoceriotti.com/tags/updates/">Updates</a></li>
     </ul>
 
   </footer>

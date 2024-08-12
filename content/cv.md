@@ -1,5 +1,6 @@
 ---
 title: 'Curriculum Vitae'
+ShowBreadCrumbs: false
 ---
 [Download](/files/CV.pdf)
 ## Education

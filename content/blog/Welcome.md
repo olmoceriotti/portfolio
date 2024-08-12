@@ -2,6 +2,8 @@
 title: 'Welcome to my blog'
 date: 2024-08-11T15:13:16+02:00
 draft: false
+author: ["Olmo Ceriotti"]
+tags: ["updates"]
 ---
 In the past years I found myself interested in a vast ocean of different topics. Even if becoming an expert in all of them is a distant hope, I always thought that documenting this interestes could lead to curious and potentially interesting connections.\
 I tried many different methods: notebooks, [Notion](https://www.notion.so/) and ultimately [Obsidian](https://obsidian.md/) but I think that sharing such dives into unknown (for me) concepts could transform the way I approach them.\

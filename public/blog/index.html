@@ -11,11 +11,11 @@
 <meta name="author" content="">
 <link rel="canonical" href="https://olmoceriotti.com/blog/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.fc220c15db4aef0318bbf30adc45d33d4d7c88deff3238b23eb255afdc472ca6.css" integrity="sha256-/CIMFdtK7wMYu/MK3EXTPU18iN7/MjiyPrJVr9xHLKY=" rel="preload stylesheet" as="style">
-<link rel="icon" href="https://olmoceriotti.com/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://olmoceriotti.com/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://olmoceriotti.com/favicon-32x32.png">
-<link rel="apple-touch-icon" href="https://olmoceriotti.com/apple-touch-icon.png">
-<link rel="mask-icon" href="https://olmoceriotti.com/safari-pinned-tab.svg">
+<link rel="icon" href="https://olmoceriotti.com/favicon/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://olmoceriotti.com/favicon/favicon16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://olmoceriotti.com/favicon/favicon32x32.png">
+<link rel="apple-touch-icon" href="https://olmoceriotti.com/favicon/favicon.png">
+<link rel="mask-icon" href="https://olmoceriotti.com/favicon/favicon.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
 <link rel="alternate" type="application/rss+xml" href="https://olmoceriotti.com/blog/index.xml">
@@ -56,7 +56,23 @@
         }
 
     </style>
-</noscript>
+</noscript><script>
+    
+    const faviconLight = "https:\/\/olmoceriotti.com\/favicon\/favicon.ico";
+    const faviconDark = "https:\/\/olmoceriotti.com\/favicon\/faviconDark.ico";
+    console.log(faviconLight)
+    console.log(faviconDark)
+    console.log(window.matchMedia('(prefers-color-scheme: dark)'))
+    function updateFavicon() {
+        const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        document.head.querySelector('link[rel="icon"]').href = isDarkMode ? faviconDark : faviconLight;
+        
+    }
+
+    updateFavicon();
+
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', updateFavicon);
+</script>
   
 
 <meta property="og:title" content="Blog" />
@@ -164,7 +180,7 @@ I write about what I&rsquo;m interested in at the moment without any pretense of
     <p>In the past years I found myself interested in a vast ocean of different topics. Even if becoming an expert in all of them is a distant hope, I always thought that documenting this interestes could lead to curious and potentially interesting connections.
 I tried many different methods: notebooks, Notion and ultimately Obsidian but I think that sharing such dives into unknown (for me) concepts could transform the way I approach them....</p>
   </div>
-  <footer class="entry-footer"><span title='2024-08-11 15:13:16 +0200 CEST'>August 11, 2024</span></footer>
+  <footer class="entry-footer"><span title='2024-08-11 15:13:16 +0200 CEST'>August 11, 2024</span>&nbsp;·&nbsp;Olmo Ceriotti</footer>
   <a class="entry-link" aria-label="post link to Welcome to my blog" href="https://olmoceriotti.com/blog/welcome/"></a>
 </article>
     </main>

@@ -4,6 +4,6 @@ cover:
   image: "IMG/<img>"
   alt: "alt text"
   caption: "text"
-  ShowBreadCrumbs: false
-  ShowPostNavLinks: false
+ShowBreadCrumbs: false
+ShowPostNavLinks: false
 ---

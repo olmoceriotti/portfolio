@@ -11,11 +11,11 @@
 <meta name="author" content="">
 <link rel="canonical" href="https://olmoceriotti.com/404.html">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.fc220c15db4aef0318bbf30adc45d33d4d7c88deff3238b23eb255afdc472ca6.css" integrity="sha256-/CIMFdtK7wMYu/MK3EXTPU18iN7/MjiyPrJVr9xHLKY=" rel="preload stylesheet" as="style">
-<link rel="icon" href="https://olmoceriotti.com/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://olmoceriotti.com/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://olmoceriotti.com/favicon-32x32.png">
-<link rel="apple-touch-icon" href="https://olmoceriotti.com/apple-touch-icon.png">
-<link rel="mask-icon" href="https://olmoceriotti.com/safari-pinned-tab.svg">
+<link rel="icon" href="https://olmoceriotti.com/favicon/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://olmoceriotti.com/favicon/favicon16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://olmoceriotti.com/favicon/favicon32x32.png">
+<link rel="apple-touch-icon" href="https://olmoceriotti.com/favicon/favicon.png">
+<link rel="mask-icon" href="https://olmoceriotti.com/favicon/favicon.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
 <link rel="alternate" hreflang="en" href="https://olmoceriotti.com/404.html">
@@ -55,7 +55,23 @@
         }
 
     </style>
-</noscript>
+</noscript><script>
+    
+    const faviconLight = "https:\/\/olmoceriotti.com\/favicon\/favicon.ico";
+    const faviconDark = "https:\/\/olmoceriotti.com\/favicon\/faviconDark.ico";
+    console.log(faviconLight)
+    console.log(faviconDark)
+    console.log(window.matchMedia('(prefers-color-scheme: dark)'))
+    function updateFavicon() {
+        const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        document.head.querySelector('link[rel="icon"]').href = isDarkMode ? faviconDark : faviconLight;
+        
+    }
+
+    updateFavicon();
+
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', updateFavicon);
+</script>
   
 
 <meta property="og:title" content="404 Page not found" />

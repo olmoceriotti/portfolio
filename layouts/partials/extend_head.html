@@ -1,0 +1,20 @@
+{{- /* Head custom content area start */ -}}
+<script>
+    
+    const faviconLight = "{{ site.Params.assets.favicon | absURL }}";
+    const faviconDark = "{{ site.Params.assets.faviconDark | absURL }}";
+    console.log(faviconLight)
+    console.log(faviconDark)
+    console.log(window.matchMedia('(prefers-color-scheme: dark)'))
+    function updateFavicon() {
+        const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        document.head.querySelector('link[rel="icon"]').href = isDarkMode ? faviconDark : faviconLight;
+        
+    }
+
+    updateFavicon();
+
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', updateFavicon);
+</script>
+{{- /* Head custom content area end */ -}}
+

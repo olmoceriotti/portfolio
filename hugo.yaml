@@ -19,6 +19,15 @@ menu:
       weight: 3
 
 params:
+  ShowBreadCrumbs: true
+  defaultTheme: auto
+  assets:
+    favicon: "/favicon/favicon.ico"
+    faviconDark: "favicon/faviconDark.ico"
+    favicon16x16: "/favicon/favicon16x16.png"
+    favicon32x32: "/favicon/favicon32x32.png"
+    apple_touch_icon: "/favicon/favicon.png"
+    safari_pinned_tab: "/favicon/favicon.svg"
   ShowPostNavLinks: true
   profileMode:
     enabled: true
@@ -40,8 +49,10 @@ params:
     - name: "Github"
       url: "https://github.com/olmoceriotti"
     - name: "LinkedIn"
-      url: "<link2>"
+      url: "https://www.linkedin.com/in/olmoceriotti/"
     - name: "Twitter"
-      url: "<link2>"
+      url: "https://x.com/Olmoceriotti"
     - name: "HackerRank"
       url: "https://www.hackerrank.com/profile/olmoceriotti"
+    - name: "email"
+      url: "mailto:me@olmoceriotti.com"
