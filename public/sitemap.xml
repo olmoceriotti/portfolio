@@ -2,33 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://olmoceriotti.com/projects/hetgnn/</loc>
+    <loc>http://localhost:1313/projects/hetgnn/</loc>
   </url><url>
-    <loc>https://olmoceriotti.com/projects/pysteg/</loc>
+    <loc>http://localhost:1313/projects/daiet/</loc>
   </url><url>
-    <loc>https://olmoceriotti.com/projects/json/</loc>
+    <loc>http://localhost:1313/projects/pysteg/</loc>
   </url><url>
-    <loc>https://olmoceriotti.com/blog/</loc>
+    <loc>http://localhost:1313/projects/json/</loc>
+  </url><url>
+    <loc>http://localhost:1313/blog/</loc>
     <lastmod>2024-08-11T15:13:16+02:00</lastmod>
   </url><url>
-    <loc>https://olmoceriotti.com/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2024-08-11T15:13:16+02:00</lastmod>
   </url><url>
-    <loc>https://olmoceriotti.com/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-08-11T15:13:16+02:00</lastmod>
   </url><url>
-    <loc>https://olmoceriotti.com/tags/updates/</loc>
+    <loc>http://localhost:1313/tags/updates/</loc>
     <lastmod>2024-08-11T15:13:16+02:00</lastmod>
   </url><url>
-    <loc>https://olmoceriotti.com/blog/welcome/</loc>
+    <loc>http://localhost:1313/blog/welcome/</loc>
     <lastmod>2024-08-11T15:13:16+02:00</lastmod>
   </url><url>
-    <loc>https://olmoceriotti.com/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://olmoceriotti.com/cv/</loc>
+    <loc>http://localhost:1313/cv/</loc>
   </url><url>
-    <loc>https://olmoceriotti.com/links/</loc>
+    <loc>http://localhost:1313/links/</loc>
   </url><url>
-    <loc>https://olmoceriotti.com/projects/</loc>
+    <loc>http://localhost:1313/projects/</loc>
   </url>
 </urlset>

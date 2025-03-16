@@ -2,31 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Projects on Olmo Ceriotti</title>
-    <link>https://olmoceriotti.com/projects/</link>
+    <link>http://localhost:1313/projects/</link>
     <description>Recent content in Projects on Olmo Ceriotti</description>
-    <generator>Hugo -- 0.131.0</generator>
+    <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
-    <atom:link href="https://olmoceriotti.com/projects/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Heterogeneous Graph Neural Networks for Action Prediction on Egocentric Action Scene Graphs</title>
-      <link>https://olmoceriotti.com/projects/hetgnn/</link>
+      <link>http://localhost:1313/projects/hetgnn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://olmoceriotti.com/projects/hetgnn/</guid>
-      <description>In this project I worked on implementing heterogenous graph neural networks in PyTorch Geometric to work on EASG, a novel annotation frameworks for egocentric videos. The task tested was the one of action prediction. More on this work here.</description>
+      <guid>http://localhost:1313/projects/hetgnn/</guid>
+      <description>&lt;p&gt;In this project I worked on implementing heterogenous graph neural networks in PyTorch Geometric to work on EASG, a novel annotation frameworks for egocentric videos. The task tested was the one of action prediction. More on this work &lt;a href=&#34;https://github.com/olmoceriotti/HetGnn-ActionPrediction-EASG&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>dAIet: A personal diet assistant tailored to your medical needs</title>
+      <link>http://localhost:1313/projects/daiet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/daiet/</guid>
+      <description>&lt;p&gt;During the LlamaHackathon 2024, held in Rome and sponsored by Meta, I had the opportunity to develope dAIet: a system that tailors meal plans to individual health needs, integrating medical conditions, medications, and lifestyle for optimal nutrition and wellness. To see the code and acces the project visit this &lt;a href=&#34;https://github.com/olmoceriotti/dAIet&#34;&gt;link&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>PySteg</title>
-      <link>https://olmoceriotti.com/projects/pysteg/</link>
+      <link>http://localhost:1313/projects/pysteg/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://olmoceriotti.com/projects/pysteg/</guid>
-      <description>PySteg is a steganography suite written in Python. It performs steganography on different image formats with a wide variety of algorithms and QR Codes. More on the implementation and the usage here.</description>
+      <guid>http://localhost:1313/projects/pysteg/</guid>
+      <description>&lt;p&gt;PySteg is a steganography suite written in Python. It performs steganography on different image formats with a wide variety of algorithms and QR Codes. More on the implementation and the usage &lt;a href=&#34;https://github.com/olmoceriotti/pySteg&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>JSONParser</title>
-      <link>https://olmoceriotti.com/projects/json/</link>
+      <link>http://localhost:1313/projects/json/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://olmoceriotti.com/projects/json/</guid>
-      <description>JSONParser is a collection of methods and function to parse JSON files into structures understandable by Prolog and LISP programs. Two different parsers are present, one written in prolog and on written in LISP. More on this project here.</description>
+      <guid>http://localhost:1313/projects/json/</guid>
+      <description>&lt;p&gt;JSONParser is a collection of methods and function to parse JSON files into structures understandable by Prolog and LISP programs. Two different parsers are present, one written in prolog and on written in LISP. More on this project &lt;a href=&#34;https://github.com/olmoceriotti/JSONParser&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

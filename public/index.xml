@@ -2,57 +2,83 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Olmo Ceriotti</title>
-    <link>https://olmoceriotti.com/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Olmo Ceriotti</description>
-    <generator>Hugo -- 0.131.0</generator>
+    <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 11 Aug 2024 15:13:16 +0200</lastBuildDate>
-    <atom:link href="https://olmoceriotti.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Heterogeneous Graph Neural Networks for Action Prediction on Egocentric Action Scene Graphs</title>
-      <link>https://olmoceriotti.com/projects/hetgnn/</link>
+      <link>http://localhost:1313/projects/hetgnn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://olmoceriotti.com/projects/hetgnn/</guid>
-      <description>In this project I worked on implementing heterogenous graph neural networks in PyTorch Geometric to work on EASG, a novel annotation frameworks for egocentric videos. The task tested was the one of action prediction. More on this work here.</description>
+      <guid>http://localhost:1313/projects/hetgnn/</guid>
+      <description>&lt;p&gt;In this project I worked on implementing heterogenous graph neural networks in PyTorch Geometric to work on EASG, a novel annotation frameworks for egocentric videos. The task tested was the one of action prediction. More on this work &lt;a href=&#34;https://github.com/olmoceriotti/HetGnn-ActionPrediction-EASG&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>dAIet: A personal diet assistant tailored to your medical needs</title>
+      <link>http://localhost:1313/projects/daiet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/daiet/</guid>
+      <description>&lt;p&gt;During the LlamaHackathon 2024, held in Rome and sponsored by Meta, I had the opportunity to develope dAIet: a system that tailors meal plans to individual health needs, integrating medical conditions, medications, and lifestyle for optimal nutrition and wellness. To see the code and acces the project visit this &lt;a href=&#34;https://github.com/olmoceriotti/dAIet&#34;&gt;link&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>PySteg</title>
-      <link>https://olmoceriotti.com/projects/pysteg/</link>
+      <link>http://localhost:1313/projects/pysteg/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://olmoceriotti.com/projects/pysteg/</guid>
-      <description>PySteg is a steganography suite written in Python. It performs steganography on different image formats with a wide variety of algorithms and QR Codes. More on the implementation and the usage here.</description>
+      <guid>http://localhost:1313/projects/pysteg/</guid>
+      <description>&lt;p&gt;PySteg is a steganography suite written in Python. It performs steganography on different image formats with a wide variety of algorithms and QR Codes. More on the implementation and the usage &lt;a href=&#34;https://github.com/olmoceriotti/pySteg&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>JSONParser</title>
-      <link>https://olmoceriotti.com/projects/json/</link>
+      <link>http://localhost:1313/projects/json/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://olmoceriotti.com/projects/json/</guid>
-      <description>JSONParser is a collection of methods and function to parse JSON files into structures understandable by Prolog and LISP programs. Two different parsers are present, one written in prolog and on written in LISP. More on this project here.</description>
+      <guid>http://localhost:1313/projects/json/</guid>
+      <description>&lt;p&gt;JSONParser is a collection of methods and function to parse JSON files into structures understandable by Prolog and LISP programs. Two different parsers are present, one written in prolog and on written in LISP. More on this project &lt;a href=&#34;https://github.com/olmoceriotti/JSONParser&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Welcome to my blog</title>
-      <link>https://olmoceriotti.com/blog/welcome/</link>
+      <link>http://localhost:1313/blog/welcome/</link>
       <pubDate>Sun, 11 Aug 2024 15:13:16 +0200</pubDate>
-      <guid>https://olmoceriotti.com/blog/welcome/</guid>
-      <description>In the past years I found myself interested in a vast ocean of different topics. Even if becoming an expert in all of them is a distant hope, I always thought that documenting this interestes could lead to curious and potentially interesting connections.
-I tried many different methods: notebooks, Notion and ultimately Obsidian but I think that sharing such dives into unknown (for me) concepts could transform the way I approach them.</description>
+      <guid>http://localhost:1313/blog/welcome/</guid>
+      <description>&lt;p&gt;In the past years I found myself interested in a vast ocean of different topics. Even if becoming an expert in all of them is a distant hope, I always thought that documenting this interestes could lead to curious and potentially interesting connections.&lt;br&gt;
+I tried many different methods: notebooks, &lt;a href=&#34;https://www.notion.so/&#34;&gt;Notion&lt;/a&gt; and ultimately &lt;a href=&#34;https://obsidian.md/&#34;&gt;Obsidian&lt;/a&gt; but I think that sharing such dives into unknown (for me) concepts could transform the way I approach them.&lt;br&gt;
+I then created this website using &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; and the &lt;a href=&#34;https://github.com/adityatelange/hugo-PaperMod/&#34;&gt;Papermod&lt;/a&gt; theme and hosted it with &lt;a href=&#34;https://vercel.com/&#34;&gt;Vercel&lt;/a&gt;. I chose the most straightforward way of creating a website since web development is distant from my area of &amp;ldquo;expertise&amp;rdquo;. The main objective of this website is not to experiment and dive into web framework and technologies but rather showcase and discuss other topics I came in contact with.&lt;br&gt;
+I will not post articles regularly but only when a topic feels worthy of deeper analisys. I hope to spark at least the interest of one person with my texts and I hope to learn a lot more from them. I&amp;rsquo;m always open to exchange information and insights, contact me through my socials or through the contact informations inside the main page.&lt;br&gt;
+Thank you for your attention!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Curriculum Vitae</title>
-      <link>https://olmoceriotti.com/cv/</link>
+      <link>http://localhost:1313/cv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://olmoceriotti.com/cv/</guid>
-      <description>Download
-Education University of Milano Bicocca - Bachelor in Computer Science From September 2021 to July 2024
-Graduated with honors Relevant coursework: Programming Languages (Prolog &amp;amp; Lisp), Distributed Systems (Java &amp;amp; Javascript), Object Oriented Programming (Java &amp;amp; C++) AGH University - Erasmus semester From September 2023 to February 2024
-Relevant coursework: Embedded Artificial Intelligence (Python), Functional Programming Languages (Scala), Cryptography (Python) Technical Skills Languages: Python, Java, Javascript, C++, Scala, Lisp, Prolog, HTML, CSS, SQL, Bash, Latex Technologies: PyTorch, PyTorch Geometric, TensorFlow, Flask, Express.</description>
+      <guid>http://localhost:1313/cv/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/files/CV.pdf&#34;&gt;Download&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;education&#34;&gt;Education&lt;/h2&gt;
+&lt;h3 id=&#34;university-sapienza---masters-in-artificial-intelligence-and-robotics&#34;&gt;University Sapienza - Master&amp;rsquo;s in Artificial Intelligence and Robotics&lt;/h3&gt;
+&lt;p&gt;From September 2024 to September 2026 (Expected)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Relevant coursework&lt;/strong&gt;:  Artificial Intelligence, Machine Learning, AI Development (&lt;em&gt;PyTorch&lt;/em&gt; &amp;amp; &lt;em&gt;Tensorflow&lt;/em&gt;), Robot Programming (&lt;em&gt;C++&lt;/em&gt; &amp;amp; &lt;em&gt;ROS2&lt;/em&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;university-of-milano-bicocca---bachelors-in-computer-science&#34;&gt;University of Milano Bicocca - Bachelor&amp;rsquo;s in Computer Science&lt;/h3&gt;
+&lt;p&gt;From September 2021 to July 2024&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Graduated with honors&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Relevant coursework&lt;/strong&gt;:  Programming Languages (&lt;em&gt;Prolog&lt;/em&gt; &amp;amp; &lt;em&gt;Lisp&lt;/em&gt;), Distributed Systems (&lt;em&gt;Java&lt;/em&gt; &amp;amp; &lt;em&gt;Javascript&lt;/em&gt;), Object Oriented Programming (&lt;em&gt;Java&lt;/em&gt; &amp;amp; &lt;em&gt;C++&lt;/em&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;agh-university---erasmus-semester&#34;&gt;AGH University - Erasmus semester&lt;/h3&gt;
+&lt;p&gt;From September 2023 to February 2024&lt;/p&gt;</description>
     </item>
     <item>
       <title>Links</title>
-      <link>https://olmoceriotti.com/links/</link>
+      <link>http://localhost:1313/links/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://olmoceriotti.com/links/</guid>
-      <description>Github LinkedIn Twitter HackerRank LeetCode Email </description>
+      <guid>http://localhost:1313/links/</guid>
+      <description>&lt;h2 id=&#34;github&#34;&gt;&lt;a href=&#34;https://github.com/olmoceriotti&#34;&gt;Github&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;linkedin&#34;&gt;&lt;a href=&#34;https://www.linkedin.com/in/olmoceriotti/&#34;&gt;LinkedIn&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;twitter&#34;&gt;&lt;a href=&#34;https://x.com/Olmoceriotti&#34;&gt;Twitter&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;hackerrank&#34;&gt;&lt;a href=&#34;https://www.hackerrank.com/profile/olmoceriotti&#34;&gt;HackerRank&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;leetcode&#34;&gt;&lt;a href=&#34;https://leetcode.com/u/olmoceriotti/&#34;&gt;LeetCode&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;email&#34;&gt;&lt;a href=&#34;mailto:me@olmoceriotti.com&#34;&gt;Email&lt;/a&gt;&lt;/h2&gt;</description>
     </item>
   </channel>
 </rss>

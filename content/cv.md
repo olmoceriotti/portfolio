@@ -5,7 +5,11 @@ ShowBreadCrumbs: false
 [Download](/files/CV.pdf)
 ## Education
 
-### University of Milano Bicocca - Bachelor in Computer Science
+### University Sapienza - Master's in Artificial Intelligence and Robotics
+From September 2024 to September 2026 (Expected)
+- **Relevant coursework**:  Artificial Intelligence, Machine Learning, AI Development (*PyTorch* & *Tensorflow*), Robot Programming (*C++* & *ROS2*)
+
+### University of Milano Bicocca - Bachelor's in Computer Science
 From September 2021 to July 2024
 - Graduated with honors
 - **Relevant coursework**:  Programming Languages (*Prolog* & *Lisp*), Distributed Systems (*Java* & *Javascript*), Object Oriented Programming (*Java* & *C++*)

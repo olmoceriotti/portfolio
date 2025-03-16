@@ -3,7 +3,7 @@ title: 'PySteg'
 cover:
   image: "IMG/PySteg.png"
   alt: "alt text"
-weight: 2
+weight: 3
 ShowPostNavLinks: false
 ---
 
